@@ -3,4 +3,33 @@
 }
 body {
   margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+#img-div{
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  width: 300px;
+  
+}
+#image {
+
+ flex: 0 1 auto;
+}
+@media (max-screen:900) {
+    .row{
+      flex-wrap: wrap;
+    }
+    .cell{
+    width: 100%;
+    }
 }
